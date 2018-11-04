@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+  
+  <test name="Assignment1">
+    <classes>
+      <class name="com.automation.tests.WalletHubReviewTest"/>
+      <class name="com.automation.tests.FacebookLoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

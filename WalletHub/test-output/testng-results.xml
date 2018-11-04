@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68081" started-at="2018-11-03T23:56:07Z" finished-at="2018-11-03T23:57:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68081" started-at="2018-11-03T23:56:07Z" finished-at="2018-11-03T23:57:15Z">
+      <class name="com.automation.tests.WalletHubReviewTest">
+        <test-method status="PASS" signature="setupGlobal()[pri:0, instance:com.automation.tests.WalletHubReviewTest@3bfdc050]" name="setupGlobal" is-config="true" duration-ms="40" started-at="2018-11-04T05:26:07Z" finished-at="2018-11-04T05:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupGlobal -->
+        <test-method status="PASS" signature="confURL()[pri:0, instance:com.automation.tests.WalletHubReviewTest@3bfdc050]" name="confURL" is-config="true" duration-ms="21652" started-at="2018-11-04T05:26:07Z" finished-at="2018-11-04T05:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confURL -->
+        <test-method status="PASS" signature="reviewTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.tests.WalletHubReviewTest@3bfdc050]" name="reviewTest" duration-ms="42655" started-at="2018-11-04T05:26:32Z" data-provider="UserReviewData" finished-at="2018-11-04T05:27:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avinashtest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MzEwOEF2aW5hc2gk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Health]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewTest -->
+        <test-method status="PASS" signature="testTeardown()[pri:0, instance:com.automation.tests.WalletHubReviewTest@3bfdc050]" name="testTeardown" is-config="true" duration-ms="913" started-at="2018-11-04T05:27:15Z" finished-at="2018-11-04T05:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeardown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.tests.WalletHubReviewTest@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-11-04T05:27:15Z" finished-at="2018-11-04T05:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="teardownGlobal()[pri:0, instance:com.automation.tests.WalletHubReviewTest@3bfdc050]" name="teardownGlobal" is-config="true" duration-ms="0" started-at="2018-11-04T05:27:16Z" finished-at="2018-11-04T05:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownGlobal -->
+      </class> <!-- com.automation.tests.WalletHubReviewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
